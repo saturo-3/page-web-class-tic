@@ -1,0 +1,62 @@
+body {
+    background-color: #374144; 
+    font-family: Arial, sans-serif; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #D6D6D0; 
+}
+
+.picture {
+    width: 45%;
+}
+
+.picture img {
+    max-width: 50%;
+    height: auto;
+}
+
+.movie-info {
+    width: 45%;
+}
+
+.movie-info div {
+    margin-bottom: 10px;
+}
+
+.movie-info div h2,
+.movie-info div p {
+    margin: 0;
+}
+
+.movie-info div h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.movie-info div p {
+    font-size: 1.1em;
+}
+
+.movie-info div ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.movie-info div ul li {
+    margin-bottom: 5px;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    background-color: #9CA3A2; 
+    color: #7D8E9F; 
+    text-align: center;
+    padding: 10px;
+}
